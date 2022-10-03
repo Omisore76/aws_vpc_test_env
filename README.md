@@ -26,3 +26,24 @@ There are a few things you need before you can use this repo:
 3) A good understanding of cloud fundamentals and some experience creating services in a public cloud, AWS in this case.
 
 4) Terraform installed on a local machine. You can learn how to install Terraform [HERE](https://learn.hashicorp.com/tutorials/terraform/install-cli).
+
+5) Git installed on a local machine. Learn how to install git [HERE](https://github.com/git-guides/install-git)
+
+## How to Use the Project
+
+This project can be used by following these steps:
+1) Fork the repo
+
+2) Clone it to your local machine
+
+3) Generate a new keypair by running the command: `ssh-keygeb -t ed25519`. You will be prompted to enter the location to save the key. Type `~/.ssh/ec2_keypair`
+
+4) Run terraform init
+
+5) Run terraform plan
+
+6) Run terraform apply -auto-approve
+
+If you check your AWS dashboard, you'll see that a VPC, public subnet, internet gateway, route table, security group, keypair, and Amazon EC2 instance have all been created.
+
+
