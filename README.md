@@ -44,7 +44,11 @@ This project can be used by following these steps:
 
 5) Run `terraform plan`
 
+![Terraform plan command!](terraform/terraform_images/terraform_plan_command.png)
+
 6) Run `terraform apply -auto-approve`
+
+![Terraform apply command!](terraform/terraform_images/terraform_apply.png)
 
 If you check your AWS dashboard, you'll see that a VPC, public subnet, internet gateway, route table, security group, keypair, and Amazon EC2 instance have all been created.
 
