@@ -40,7 +40,7 @@ This project can be used by following these steps:
 
 4) Run `terraform init`
 
-![Terraform init command!](terraform/terraform_images/terraform_init)
+![Terraform init command!](terraform/terraform_images/terraform_init.png)
 
 5) Run `terraform plan`
 
