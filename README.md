@@ -66,6 +66,8 @@ Finally, it's important to destroy resources when you're done with them, in orde
 
 ![terraform_destroy!](terraform/terraform_images/terraform_destroy.png)
 
+![terraform_destroy!](terraform/terraform_images/terraform_destroy_result.png)
+
 ## Helpful Tips
 Hey! Here are some helpful tips:
 You can choose any location and name for your keypair. If you do this, you'll need to specify the file path in the **"aws_key_pair"** resource block.
