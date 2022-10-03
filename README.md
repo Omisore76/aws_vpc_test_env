@@ -19,10 +19,10 @@ There are many reasons for using Terraform as Infrastructure as a code.
 
 There are a few things you need before you can use this repo:
 
-1) An AWS account with admin priviledges. You can learn how to create an AWS account [HERE] (https://docs.aws.amazon.com/polly/latest/dg/setting-up.html).
+1) An AWS account with admin priviledges. You can learn how to create an AWS account [HERE](https://docs.aws.amazon.com/polly/latest/dg/setting-up.html).
 
-2) AWS CLI set up on a local machine. You can learn how to set up AWS CLI [HERE] (https://docs.aws.amazon.com/cli/latest/userguide/cli-configure-quickstart.html).
+2) AWS CLI set up on a local machine. You can learn how to set up AWS CLI [HERE](https://docs.aws.amazon.com/cli/latest/userguide/cli-configure-quickstart.html).
 
 3) A good understanding of cloud fundamentals and some experience creating services in a public cloud, AWS in this case.
 
-4) Terraform installed on a local machine. You can learn how to install Terraform [HERE] (https://learn.hashicorp.com/tutorials/terraform/install-cli).
+4) Terraform installed on a local machine. You can learn how to install Terraform [HERE](https://learn.hashicorp.com/tutorials/terraform/install-cli).
