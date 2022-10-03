@@ -46,4 +46,12 @@ This project can be used by following these steps:
 
 If you check your AWS dashboard, you'll see that a VPC, public subnet, internet gateway, route table, security group, keypair, and Amazon EC2 instance have all been created.
 
+## Helpful Tips
+Hey! Here are some helpful tips:
+You can choose any location and name for your keypair. If you do this, you'll need to specify the file path in the **"aws_key_pair"** resource block.
+
+And of course, feel free to modify the template to suit your needs.
+
+Thanks!
+
 
