@@ -38,11 +38,11 @@ This project can be used by following these steps:
 
 3) Generate a new keypair by running the command: `ssh-keygeb -t ed25519`. You will be prompted to enter the location to save the key. Type `~/.ssh/ec2_keypair`
 
-4) Run terraform init
+4) Run `terraform init`
 
-5) Run terraform plan
+5) Run `terraform plan`
 
-6) Run terraform apply -auto-approve
+6) Run `terraform apply -auto-approve`
 
 If you check your AWS dashboard, you'll see that a VPC, public subnet, internet gateway, route table, security group, keypair, and Amazon EC2 instance have all been created.
 
