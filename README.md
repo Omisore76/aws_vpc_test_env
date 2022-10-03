@@ -40,6 +40,8 @@ This project can be used by following these steps:
 
 4) Run `terraform init`
 
+![Terraform init command!](terraform/terraform_images/terraform_init)
+
 5) Run `terraform plan`
 
 6) Run `terraform apply -auto-approve`
