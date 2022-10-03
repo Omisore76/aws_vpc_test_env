@@ -46,11 +46,25 @@ This project can be used by following these steps:
 
 ![Terraform plan command!](terraform/terraform_images/terraform_plan_command.png)
 
+![Terraform plan result!](terraform/terraform_images/terraform_plan_result.png)
+
 6) Run `terraform apply -auto-approve`
 
 ![Terraform apply command!](terraform/terraform_images/terraform_apply.png)
 
+![Terraform apply result!](terraform/terraform_images/terraform_apply_result.png)
+
 If you check your AWS dashboard, you'll see that a VPC, public subnet, internet gateway, route table, security group, keypair, and Amazon EC2 instance have all been created.
+
+![AWS_VPC!](terraform/terraform_images/vpc.png)
+
+![Amazon_EC2!](terraform/terraform_images/aws_ec2.png)
+
+![AWS_Security_Group!](terraform/terraform_images/security_group.png)
+
+Finally, it's important to destroy resources when you're done with them, in order to avoid incurring unnecessary charges. The `terraform destroy -auto-approve` command is a quick and easy way to destroy all resources that have been created. Simply run the command and all resources will be destroyed.
+
+![terraform_destroy!](terraform/terraform_images/terraform_destroy.png)
 
 ## Helpful Tips
 Hey! Here are some helpful tips:
