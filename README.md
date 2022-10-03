@@ -50,6 +50,8 @@ If you check your AWS dashboard, you'll see that a VPC, public subnet, internet 
 Hey! Here are some helpful tips:
 You can choose any location and name for your keypair. If you do this, you'll need to specify the file path in the **"aws_key_pair"** resource block.
 
+Modify the userdata file to suit your needs.
+
 And of course, feel free to modify the template to suit your needs.
 
 Thanks!
